@@ -1,0 +1,28 @@
+.sizes-filter{
+    margin: 0 20px;
+}
+
+.filter{
+    width: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+}
+
+.size{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.size:hover{
+    background-color: #3B3B3B;
+}
+
+.sizeDark{
+    background-color: #3B3B3B;
+}
+
+.sizeLight{
+    background-color: gray;
+}
